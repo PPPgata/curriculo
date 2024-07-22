@@ -3,3 +3,9 @@
     justify-content: space-between;
     max-width: 100%;
 }
+.cardformacao__ano{
+    font-size: .875rem
+}
+.cardformacao__informacoes p{
+    font-size: .875rem
+}

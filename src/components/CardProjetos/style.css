@@ -1,8 +1,8 @@
 .cardprojetos{
-    border: 1px solid black;
+    border: 1px solid #dddddd;
     border-radius: 5px;
     max-width: 100%;
-    width: 360px;
+    width: 334px;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -10,14 +10,27 @@
 }
 .tag__habilidade{
     display: inline-flex;
-    background-color: #111827CC;
+    background-color: #848383;
     color: rgb(255, 255, 255);
     border-radius: 10px ;
     padding: 2px 8px 5px;
     align-items: center;
     justify-content: center ;
+    font-size: .65rem;
 }
 .tags__habilidades{
     display: flex;
     gap: 6px;
 }
+
+@media (max-width: 1200px) {
+    .cardprojetos{
+      width: 47%;
+    }
+}
+@media (max-width: 948px) {
+    .cardprojetos{
+      width: 100%;
+    }
+}
+

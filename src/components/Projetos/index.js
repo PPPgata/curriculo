@@ -6,7 +6,8 @@ const Projetos = ()=>{
     return(
         <div>
             <h2>Projetos</h2>
-            {projetos.map((projeto)=>(
+            <div className="projetos__card">
+                {projetos.map((projeto)=>(
                 <CardProjetos
                 descricao={projeto.descricao}
                 habilidades={projeto.habilidade}
@@ -14,6 +15,8 @@ const Projetos = ()=>{
                 nomeProjeto={projeto.nomeProjeto}
                 />
             ))}
+            </div>
+
             
         </div>
     )
