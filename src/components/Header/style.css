@@ -1,12 +1,11 @@
   .header{
     display: flex;
     justify-content: space-between;
-    height: 130.8px;
     max-height: 100%;
   }
   .header__imagem{
     max-width: 50%;
-    
+    height: 130.8px;
   }
   .header__imagem__img{
     height: 100%;
