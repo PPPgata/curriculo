@@ -1,0 +1,15 @@
+.habilidades{
+    display: flex;
+    gap: 6px    ;
+}
+
+.habilidades__habilidade{
+    display: inline-flex;
+    background-color: #111827CC;
+    color: rgb(255, 255, 255);
+    border-radius: 10px ;
+    padding: 2px 8px 5px;
+    align-items: center;
+    justify-content: center ;
+}
+

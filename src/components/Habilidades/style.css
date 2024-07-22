@@ -1,0 +1,9 @@
+.habilidades{
+    display: flex;
+    flex-direction: column;
+}
+.habilidades__pin{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
