@@ -8,14 +8,33 @@
     padding: 64px;
   }
 
-  @media (max-width: 1200px) {
-    .App{
-      width: auto;
-    }
-  }
+  
+
   *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
   }
+
+  @media (max-width: 1200px) {
+    .App{
+      width: auto;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .App{
+      padding: 40px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .App{
+      padding: 20px;
+    }
+  }
+
+  
+
+  
