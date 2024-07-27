@@ -1,7 +1,7 @@
 import "./style.css"
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { GrGithub, GrLinkedin } from "react-icons/gr";
-import foto from "../../Assets/ft_curriculo.jpg"
+import foto from "../../Assets/ft_curriculo.jpeg"
 
 const Header = ()=>{
     return(
